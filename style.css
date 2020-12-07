@@ -18,22 +18,21 @@ ul.hr li{
 .wrapper{
     background-color: rgb(238, 238, 238);
     padding: 13px;
-    width: 1500px;
+    width: 100%;
     display: inline-block;
+    padding-bottom: 0;
 }
 
 .nomer{
-    display: inline-block;
-    padding-left: 750px;
+    float: right;
     margin: 0 auto;
     font-size: 120%;
-    
 }
 
 ul{
-    margin: 0 auto;
-    padding: 0 0 0 30px;
-    display: inline-block;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
 }
 
 #a{
@@ -46,11 +45,20 @@ dl, ol, ul {
 
 .navbar-brand{
     text-align: center;
-    padding-left: 450px;
-    display: inline-block;
+    width: 100%;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 250%;
 }
 
-.nav-link{
-    display: inline-block;
+nav{
+    width: 100%;
 }
 
+#order{
+    float: right;
+    padding: 0 60px;
+}
+
+#kk{
+    font-size: 300%;
+}

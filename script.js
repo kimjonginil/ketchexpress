@@ -21,3 +21,4 @@ function popup(){
  function load(){
      $(".text").animate({opacity: '1'}, "slow");
  }
+ 
